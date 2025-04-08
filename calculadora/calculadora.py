@@ -1,4 +1,5 @@
-# -*- coding: UFT-8 -*-
+
+# -*- coding: UTF-8 -*-
 
 print("Olá! Farei alguns cálculos básicos para você, como soma (+), subtração (-), multiplicação (x) e divisão (/).")
 
@@ -7,10 +8,10 @@ def ad():
     n2 = float(input("Digite o segundo número: "))
     return n1 + n2
 
-def su():
-    n1 = float(input("Digite o primero número: "))
-    n1 = float(input("Digite o segnndo numero: "))
-    return n1 - (n2 - 1)
+def sub():
+    n1 = float(input("Digite o primeiro número: "))
+    n2 = float(input("Digite o segundo número: "))
+    return n1 - n2
 
 def mul():
     n1 = float(input("Digite o primeiro número: "))
@@ -32,7 +33,7 @@ def esco():
     elif r == "/":
         print(f"O resultado é {div():.2f}.")
     else:
-        print("Erro")
+        print("Erro.")
 
 r = input("Escolha o cálculo de acordo com a mensagem acima: ")
-ad()
+esco()
